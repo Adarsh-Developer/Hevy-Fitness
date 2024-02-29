@@ -1,6 +1,6 @@
 const SettingTheme = ({ setIsDarkMode, status, setStatus }) => {
 
-  setIsDarkMode(status === 'dark' ? 1 : 0)
+  setIsDarkMode(status === 'dark' ? true : false)
 
   return (
     <div className='flex flex-col w-[100%] gap-4 border-[1px] border-[#ecedf0] border-l-0 rounded-r-[8px] max-w-[750px] bg-white px-4 pt-[16px] dark:text-white dark:bg-[#1F2022] dark:border-[#2d2f32]'>
