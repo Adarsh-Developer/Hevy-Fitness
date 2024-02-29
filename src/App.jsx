@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { HashRouter, Route, Routes } from "react-router-dom"
 
 // Importing all the components...
 import { Sidebar, Feed, Routine, Exercise, Profile, Setting, SettingProfile, SettingAccount, SettingSubscription, SettingUnit, SettingTheme, SettingExport } from "./components"
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className={isDarkMode && 'dark'} >
       <div className="w-full min-h-[screen] dark:bg-[#191A1C] h-screen max-h-screen overflow-y-hidden bg-primaryColor flex flex-col lg:flex-row font-FontOne">
-        <BrowserRouter basename="/Hevy-Fitness" >
+        <HashRouter >
           <Sidebar isDarkMode={isDarkMode} />
           <Routes >
             <Route path="/" element={<Feed />} />
@@ -30,7 +30,7 @@ const App = () => {
               <Route path="?export" element={<SettingExport />} />
             </Route>
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     </div>
   )
