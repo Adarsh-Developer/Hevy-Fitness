@@ -13,10 +13,10 @@ const App = () => {
   return (
     <div className={isDarkMode && 'dark'} >
       <div className="w-full min-h-[screen] dark:bg-[#191A1C] h-screen max-h-screen overflow-y-hidden bg-primaryColor flex flex-col lg:flex-row font-FontOne">
-        <BrowserRouter>
+        <BrowserRouter basename="/Hevy-Fitness" >
           <Sidebar isDarkMode={isDarkMode} />
           <Routes >
-            <Route path="/Hevy-Fitness" element={<Feed />} />
+            <Route path="/" element={<Feed />} />
             <Route path="/routine" element={<Routine />} />
             <Route path="/create-routine" element={<CreateRoutine />} />
             <Route path="/exercise" element={<Exercise />} />

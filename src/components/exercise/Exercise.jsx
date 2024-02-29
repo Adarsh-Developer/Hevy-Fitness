@@ -21,7 +21,7 @@ const Exercise = () => {
       <div className="flex flex-col w-[100%] lg:max-w-[794px] max-w-[694px]">
         <h1 className="text-[24px] font-[500] mb-[16px] dark:text-white">Exercise</h1>
         <button onClick={() => setIsLibrary(true)} className="w-[100%] bg-[#1780ea] text-white text-[14px] rounded-[6px] hover:bg-[#056DD7] px-[6px] py-[1px] h-[45px] font-[500] lg:hidden mb-[16px]">Select Exercise</button>
-        <div className="w-[100%] h-[100%] flex flex-col items-center justify-center p-[24px] borderWithBackground bg-[#1F2022] dark:text-white dark:border-[#2d2f32]">
+        <div className="w-[100%] h-[100%] flex flex-col items-center justify-center p-[24px] borderWithBackground dark:bg-[#1F2022] dark:text-white dark:border-[#2d2f32]">
           {exerciseRoutineContent.length == 0 ?
             <div className="flex flex-col items-center" >
               <img src={DumbleIcon} alt="Dumble" className="mb-[20px]" />
