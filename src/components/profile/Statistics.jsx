@@ -47,7 +47,7 @@ const Statistics = () => {
                 </div>
 
                 <div className='flex gap-4 items-center text-[.9rem] text-[#1780ea]'>
-                    <select onChange={e => handleFilterDataTwo(e.target.value)} className="selectArrow outline-none borderOnly px-[10px] py-[7px] text-[16px] text-[#111927] h-[40px] appearance-none w-[225px] bg-[#F9FAFB] hover:border-[#00000055] focus:border-[1.5px] focus:border-[#1780ea]" >
+                    <select onChange={e => handleFilterDataTwo(e.target.value)} className="selectArrow outline-none px-[10px] py-[7px] text-[14px] h-[40px] appearance-none w-[150px] bg-transparent focus:border-[1.5px] text-[#6280EA]" >
                         <option value="Last 12 weeks" >Last 12 weeks</option>
                         <option value="Year" >Year</option>
                         <option value="All time" >All time</option>
