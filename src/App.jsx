@@ -16,7 +16,7 @@ const App = () => {
         <BrowserRouter>
           <Sidebar isDarkMode={isDarkMode} />
           <Routes >
-            <Route path="/" element={<Feed />} />
+            <Route path="/Hevy-Fitness" element={<Feed />} />
             <Route path="/routine" element={<Routine />} />
             <Route path="/create-routine" element={<CreateRoutine />} />
             <Route path="/exercise" element={<Exercise />} />

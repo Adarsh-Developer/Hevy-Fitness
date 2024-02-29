@@ -34,8 +34,8 @@ const Sidebar = ({ isDarkMode }) => {
           </div>
 
           {/* ALl the Navlinks of SlideBar */}
-          <NavLink onClick={() => setIsMenu(false)} to={'/'} className={({ isActive }) => isActive ? 'navLinks bg-[#E8F2FD] dark:bg-[#203B56] text-[#1780EA] mt-[8px]' : 'navLinks mt-[8px]'} >
-            <img src={location.pathname === '/' ? ActiveFeedIcon : FeedIcon} alt="Home" />Feed
+          <NavLink onClick={() => setIsMenu(false)} to={'/Hevy-Fitness'} className={({ isActive }) => isActive ? 'navLinks bg-[#E8F2FD] dark:bg-[#203B56] text-[#1780EA] mt-[8px]' : 'navLinks mt-[8px]'} >
+            <img src={location.pathname === '/Hevy-Fitness' ? ActiveFeedIcon : FeedIcon} alt="Home" />Feed
           </NavLink>
 
           <NavLink onClick={() => setIsMenu(false)} to={'/routine'} className={({ isActive }) => isActive || location.pathname === '/create-routine' ? 'navLinks bg-[#E8F2FD] dark:bg-[#203B56] text-[#1780EA]' : 'navLinks'} >
