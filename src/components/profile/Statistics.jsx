@@ -41,13 +41,13 @@ const Statistics = () => {
             </div>
 
             <div className='flex justify-between px-6'>
-                <div className='flex gap-2 items-center relative'>
+                <div className='flex gap-2 items-end'>
                     <h1 className='text-2xl font-medium'>{selectedOption == "Duration" ? duration : reps}</h1>
-                    <p className='text-[.9rem] absolute bottom-0 right-[-5rem]'>This week</p>
+                    <p className='text-[14px] right-[-5rem]'>This week</p>
                 </div>
 
                 <div className='flex gap-4 items-center text-[.9rem] text-[#1780ea]'>
-                    <select onChange={e => handleFilterDataTwo(e.target.value)} className="selectArrow outline-none px-[10px] py-[7px] text-[14px] h-[40px] appearance-none w-[150px] bg-transparent focus:border-[1.5px] text-[#6280EA]" >
+                    <select className="selectArrow outline-none px-[10px] py-[7px] text-[14px] h-[40px] appearance-none w-[130px] bg-transparent focus:border-[1.5px] text-[#6280EA]" >
                         <option value="Last 12 weeks" >Last 12 weeks</option>
                         <option value="Year" >Year</option>
                         <option value="All time" >All time</option>
