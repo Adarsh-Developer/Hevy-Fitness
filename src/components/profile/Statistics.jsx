@@ -11,7 +11,7 @@ const Statistics = () => {
     };
 
     return (
-        <div className='flex flex-col borderOnly w-[60%] rounded-[10px] pt-6 gap-5 statistics-chart bg-transparent bg-[#1F2022] dark:border-[#2d2f32] dark:text-white'>
+        <div className='flex flex-col borderOnly w-[60%] rounded-[10px] pt-6 gap-5 statistics-chart bg-transparent dark:bg-[#1F2022] dark:border-[#2d2f32] dark:text-white'>
             <div className='px-1 mx-6'>
                 <p className='font-medium text-lg'>Statistics</p>
             </div>
