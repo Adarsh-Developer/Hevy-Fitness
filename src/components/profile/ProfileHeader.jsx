@@ -27,7 +27,7 @@ const ProfileHeader = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex max-w-[250px] w-[100%] items-center justify-between lg:hidden">
+            <div className="flex max-w-[300px] w-[100%] items-center justify-between lg:hidden">
                 <div className="flex flex-col items-center gap-1 pr-4">
                     <h1 className="text-[12px] text-[#898f99]" >Workouts</h1>
                     <h1 className="text-[14px] text-[#111927] dark:text-white font-[500]" >144</h1>
