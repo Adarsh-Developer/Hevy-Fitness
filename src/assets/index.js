@@ -46,6 +46,7 @@ import DarkExportIcon from "./DarkExportIcon.svg";
 import DarkRightArrow from "./DarkRightArrow.svg";
 import DarkLogoutIcon from "./DarkLogoutIcon.svg";
 import DarkMenuIcon from "./DarkMenuIcon.svg";
+import DarkCrossIcon from "./DarkCrossIcon.svg";
 
 import profilePhoto from "./images/profilePicture.png";
 
@@ -99,4 +100,5 @@ export {
   DarkRightArrow,
   DarkLogoutIcon,
   DarkMenuIcon,
+  DarkCrossIcon
 };

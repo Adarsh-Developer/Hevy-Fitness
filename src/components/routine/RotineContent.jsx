@@ -9,6 +9,7 @@ const RotineContent = ({ item, index, setRoutineContent }) => {
 
   const handleDeleteRoutine = (index) => {
     setRoutineContent((prevRoutine) => prevRoutine.filter((_, i) => i !== index))
+    setShowDelete(false)
   }
 
   return (
